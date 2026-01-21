@@ -77,7 +77,7 @@ The project includes classic science fiction texts from Project Gutenberg:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/sci-fi-concept-explorer.git
+git clone https://github.com/stavros-vlach/sci-fi-concept-explorer.git
 cd sci-fi-concept-explorer
 ```
 
@@ -341,38 +341,15 @@ python src/first_assigment/application.py
 
 **Solution**: Reduce the number of documents or process them in batches. You can also adjust the `chunk_size` parameter to create fewer, larger chunks.
 
-## 🔮 Future Enhancements
-
-- [ ] **Conversational Memory**: Add chat history to support follow-up questions
-- [ ] **Interactive CLI**: Build a command-line interface for real-time querying
-- [ ] **Web Interface**: Create a Streamlit or FastAPI frontend
-- [ ] **Multiple Data Sources**: Extend support for PDFs, EPUBs, and web scraping
-- [ ] **Query Optimization**: Implement query rewriting and expansion
-- [ ] **Source Attribution**: Display specific passages and book titles in responses
-- [ ] **Evaluation Metrics**: Add RAGAS or similar frameworks for RAG evaluation
-- [ ] **Caching Layer**: Implement semantic caching for repeated queries
-- [ ] **Multi-language Support**: Extend to handle non-English sci-fi literature
-
 ## 📄 License
 
-This project uses public domain texts from Project Gutenberg. The code is available for educational purposes.
-
-## 🙏 Acknowledgments
-
-- **Code.Hub & Accenture** for the AI Engineer training program
-- **Project Gutenberg** for providing access to classic literature
-- **LangChain** community for excellent documentation and tools
-- **OpenAI** for embeddings and language model APIs
+This project uses public domain texts from Project Gutenberg.
 
 ## 👤 Author
 
 **Stavros Vlach**
 - Email: stavrosvlach34@gmail.com
 - GitHub: [@stavros-vlach](https://github.com/stavros-vlach)
-
-## 📞 Contact & Feedback
-
-For questions, suggestions, or collaboration opportunities, please reach out via email or open an issue on GitHub.
 
 ---
 
