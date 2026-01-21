@@ -1,0 +1,27 @@
+[project]
+name = "first-assigment"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "stavros-vlach",email = "stavrosvlach34@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12, <4"
+dependencies = [
+    "dotenv (>=0.9.9,<0.10.0)",
+    "langchain-community (>=0.3.29,<0.4.0)",
+    "langchain (>=0.3.27,<0.4.0)",
+    "langchain-openai (>=0.3.33,<0.4.0)",
+    "langchain-community (>=0.3.29,<0.4.0)",
+    "unstructured (>=0.18.15,<0.19.0)",
+    "chromadb (>=1.1.0,<2.0.0)",
+    "pytest (>=8.4.2,<9.0.0)",
+    "langchain-chroma (>=0.2.6,<0.3.0)"
+]
+
+[tool.poetry]
+packages = [{include = "first_assigment", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
