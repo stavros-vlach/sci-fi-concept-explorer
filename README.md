@@ -129,7 +129,7 @@ Ensure your science fiction texts are in a directory named `Data Files` in the p
 Activate the Poetry virtual environment and run the application:
 
 ```bash
-poetry run python src/first_assigment/application.py
+poetry run python src/application.py
 ```
 
 This will:
@@ -162,7 +162,7 @@ response_1, response_2 = controller.RAG_chain(question=query)
 You can also import and use the `SciFiQA` class in your own scripts:
 
 ```python
-from first_assigment.application import SciFiQA
+from application import SciFiQA
 
 # Initialize the system
 explorer = SciFiQA(model="gpt-4-turbo")
@@ -213,9 +213,8 @@ tests/test_1.py::test_RAG_chain_responses PASSED
 sci-fi-concept-explorer/
 │
 ├── src/
-│   └── first_assigment/
-│       ├── __init__.py
-│       └── application.py          # Main application logic
+│   ├── __init__.py
+│   └── application.py          # Main application logic
 │
 ├── tests/
 │   ├── __init__.py
@@ -326,7 +325,7 @@ prompt_template = """
 **Solution**: Ensure you're running commands within the Poetry environment:
 ```bash
 poetry shell  # Activate the environment
-python src/first_assigment/application.py
+python src/application.py
 ```
 
 ### Issue: OpenAI API Errors
